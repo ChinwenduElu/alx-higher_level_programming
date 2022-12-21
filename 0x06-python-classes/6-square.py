@@ -25,7 +25,12 @@ class Square:
      """
 
      def __init__(self, size=0, position=(0, 0)):
-        """ Method to initialize the square object
+        """
+        Initializes square
+
+        Attributes:
+            size (int): defaults to 0 if none; don't use __size to call setter
+            position (int): tuple of two positive integers
         """
         self.size = size
         self.position = position
@@ -38,7 +43,11 @@ class Square:
 
     @size.setter
     def size(self, value):
-        """ Method to set the size value of the square object
+        """
+        Setter
+
+        Args:
+            value: sets size to value if int and >= 0
         """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
@@ -54,7 +63,11 @@ class Square:
 
     @position.setter
     def position(self, value):
-        """ Method that sets the position value of a square object
+        """
+        Setter
+
+        Args:
+            value: sets position to tuple if value is tuple of 2 positive ints
         """
         if not isinstance(value, tuple):
             raise TypeError("position must be a tuple of 2 positive integers")
