@@ -1,7 +1,27 @@
 #!/usr/bin/python3
+"""
+Module 5-square
+Defines class Square with private size and public area
+Can access and update size
+Can print to stdout the square using #'s
+"""
+
+
 class Square:
-    """ A class that defines a square by its size
     """
+    class Square definition
+
+    Args:
+        size (int): size of a side in square
+
+    Functions:
+        __init__(self, size)
+        size(self)
+        size(self, value)
+        area(self)
+        print(self)
+    """
+
     def __init__(self, size=0):
         """ Method to initialize the square object
         """
