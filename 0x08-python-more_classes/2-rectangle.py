@@ -7,15 +7,24 @@ and public area and perimeter methods
 
 
 class Rectangle:
-    """ Class that defines a rectangle """
+    """
+    Defines class rectangle with private attribute width and height
 
+    Args:
+        width (int): width
+        height (int): height
+
+    Functions:
+        __init__(self, width, height)
+        width(self)
+        width(self, value)
+        height(self)
+        height(self, value)
+        area(self)
+        perimeter(self)
+    """
     def __init__(self, width=0, height=0):
-        """ Method that initializes the instance
-
-        Args:
-            width: rectangle width
-            height: rectangle height
-        """
+        """ Method that initializes the instance"""
         self.width = width
         self.height = height
 
