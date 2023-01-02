@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-
-This module is composed by a class that defines a Rectangle
-
+Module 2-rectangle
+Contains class Rectangle with private attribute width and height,
+and public area and perimeter methods
 """
 
 
