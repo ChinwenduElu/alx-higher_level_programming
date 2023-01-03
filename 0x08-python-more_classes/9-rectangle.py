@@ -105,9 +105,8 @@ class Rectangle():
         if not isinstance(rect_1, Rectangle) or \
                 not isinstance(rect_2, Rectangle):
             raise TypeError("{} must be an instance of Rectangle".
-                            format("rect_1" if not
-                                    isinstance(rect_1, Rectangle)
-                                    else "rect_2"))
+                            format("rect_1" if not isinstance(rect_1, Rectangle)
+                                else "rect_2"))
         if rect_2.area() > rect_1.area():
             return rect_2
         return rect_1
