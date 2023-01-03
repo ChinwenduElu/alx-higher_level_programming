@@ -6,6 +6,7 @@ dynmaically created attributes
 
 """
 
+
 class LockedClass():
     """
     prevent user from creating new instance attribute dynamically
